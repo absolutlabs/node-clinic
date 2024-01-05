@@ -1,8 +1,8 @@
 {
   "name": "clinic",
   "description": "Clinic.js diagnoses your performance issues",
-  "repository": "clinicjs/node-clinic",
-  "version": "13.0.0",
+  "repository": "absolutlabs/node-clinic",
+  "version": "13.0.1",
   "bin": {
     "clinic": "bin.js"
   },
@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@clinic/bubbleprof": "^10.0.0",
-    "@clinic/doctor": "^11.0.0",
+    "@clinic/doctor": "github:absolutlabs/node-clinic-doctor",
     "@clinic/flame": "^13.0.0",
     "@clinic/heap-profiler": "^5.0.0",
     "any-shell-escape": "^0.1.1",
